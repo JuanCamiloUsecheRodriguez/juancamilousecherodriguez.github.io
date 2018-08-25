@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+	<head>
+		<meta charset = "utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="This is Juan Camilo Useche's presentation page">
+		<meta name="author" content="Juan Camilo Useche Rodríguez">
+		<link rel="icon" href="images/korosensei.ico" type="image/x-icon">
+
+		<title> Juan Camilo Useche Rodríguez </title>
+		<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+						crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+
+		<style type = "text/css">
+		body {
+    	background-image: url("images/gaming-pattern.png");
+		}
+		.bgimg {
+    background-image: url("images/dark-triangles.png");
+		}
+	</style>
+
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="70">
+
+		<!--navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id = "navbar">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+			 	aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+			  	<a class="navbar-brand" href="#me" target="_self">My Page</a>
+
+        <!-- Contents of the navbar -->
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+									<a class="nav-link" href="#skills" target="_self">Skills</a>
+							</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hobbies" target="_self">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactInformation" target="_self">Contact Information</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+		<br><br><br>
+		<h1 class= "bienvenida text-center">Welcome </h1>
+		<!-- Heading and Background -->
+		<div id="pageHeader" class = "bgimg">
+			<div class = "container-fluid"  id ="me">
+				<div class = "row">
+
+						<div class="col-md-4 text-center">
+							<img onmouseover="mOver(this)" onmouseout="mOut(this)" class = "round-image" src="images/me.jpg" alt="A photo of Juan Camilo Useche at los Andes University">
+						</div>
+
+						<div class="col-md-8 text-center"  id = "myBackground">
+							<h1>🎮 Juan Camilo Useche Rodríguez 🎮</h1>
+									<h2>My Background</h2>
+									<p>Hello, my name is Juan Camilo Useche! I am studying computer science 💻 at Los Andes University.
+									As of right now, I am coursing my eighth semester at the university. I am also working on an academic option
+									in visual computing, I have not seen any courses on user interface design though 😅.</p>
+									<br>
+									<p>
+									I am twenty years old, I live with my family (my mom, dad, brother and my six dogs 🐕). Lately, I have found mysef interested in IT applied to business
+									and I want to explore the field through my elective subjects.</p>
+									<br>
+									<button onclick="typeWriter()" class= "btn"> One extra fact </button>
+									<p id = "extraFact"></p>
+						</div>
+
+				</div>
+			</div>
+		</div>
+
+			<!--Skills-->
+		<div class="container-fluid"  id="skills">
+			<div class="row text-center">
+				<div class="col-md-12 text-center">
+					<hr>
+					<h2>Skills</h2>
+					<br>
+				</div>
+			</div>
+
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<h3>Languages</h3>
+				<br>
+				<img src="images/french.png" alt="France's flag to ilustrate my french knowledge">
+				<br>
+				<br>
+				<p>I have alredy completed my french option at the univerisity!</p>
+				<br>
+				<img src="images/english.png" alt="USA's flag to ilustrate my english knowledge">
+				<br><br>
+				<p>I am fluent in English</p>
+				<br>
+				<img src="images/spanish.png" alt="Spain flag yada yada">
+				<br><br>
+				<p>I am a native spanish speaker</p>
+			</div>
+			<div class="col-md-4 text-center">
+				<h3>Programming languages</h3>
+				<br>
+				<p>I have got some experience with programming but I am aiming to learn much more. I would try and rate my skills:</p>
+				<br>
+				<ul>
+					<li>HTML: 7/10</li>
+					<li>Java: 7/10</li>
+					<li>CSS: 6/10</li>
+					<li>JavaScript: 4/10</li>
+					<li>SQL: 4/10</li>
+					<li>Python: 3/10</li>
+					<li>Matlab: 2/10</li>
+					<li>GML: 2/10</li>
+				</ul>
+				<br>
+				<p>I know there is a lot more you can learn from every language so I am trying to keep my rating fair.</p>
+
+			</div>
+
+			<div class="col-md-4 text-center">
+				<h3>Some other skills</h3>
+				<br>
+				<img src="images/writing.png" alt="pencil and paper">
+				<br><br>
+				<p>I am good at writing texts and I try to communicate the best I can through them.</p>
+				<br>
+				<img src="images/teamwork.png" alt="people in a teamwork hug :D">
+				<p>I think i can handle teamworking. I try my best to not let my team down and/or encourage them</p>
+			</div>
+		</div>
+		</div>
+
+		<!--Hobbies-->
+		<div class="container-fluid abajo" id="hobbies">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<hr>
+					<h2>Hobbies</h2>
+					<br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<h3>Videogames</h3>
+					<br>
+					<img src="images/videogames.png" alt="A symbol for videogames. A controller">
+					<br><br>
+					<p>I really like videogames! I play a lot in my spare time. My favorite games at the moment are Battlerite,
+						League of Legends and Dead by Daylight. I really enjoy following their development!</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<h3>Drawing</h3>
+					<br>
+					<img src="images/drawing.png" alt="A symbol for drawing. A pencil">
+					<br><br>
+					<p>I have always enjoyed drawing when I am bored and there is a paper sheet by my side</p>
+
+				</div>
+				<div class="col-md-4 text-center">
+					<h3>TV shows and Movies</h3>
+					<br>
+					<img src="images/video.png" alt="A symbol for TV shows and Movies. A clapperboard">
+					<br><br>
+					<p>I especially like Sci fi movies and anime. My favorite animes at the moment are My Hero Academia 👊 and Attack on titan 🔥. I think Interestelar ⭐ is my favorite sci fi movie of all time</p>
+				</div>
+			</div>
+		</div>
+
+		<!--ContactInformation-->
+		<div class="container-fluid" id="contactInformation">
+			<div class="row text-center">
+				<div class="col-md-12 text-center">
+					<hr>
+					<h2>Contact Information</h2>
+					<br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<a href="mailto:jc.useche10@uniandes.edu.co">
+						  <img src="images/mail.png" alt="outlook logo" />
+					</a>
+				</div>
+				<div class="col-md-4 text-center">
+					<a href="https://github.com/JuanCamiloUsecheRodriguez">
+			        <img src="images/github.png" alt="github logo, octocat"/>
+			    </a>
+				</div>
+				<div class="col-md-4 text-center">
+					<a href="https://twitter.com/JuanCamiloUR16">
+			        <img src="images/twitter.png" alt="twitter logo"/>
+			    </a>
+				</div>
+			</div>
+		</div>
+
+		<!--webpage scripts-->
+	 <script src="scripts/jquery-3.3.1.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	 <script src="scripts/main.js"></script>
+	</body>
+</html>

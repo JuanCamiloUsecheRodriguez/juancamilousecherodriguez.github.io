@@ -1,0 +1,48 @@
+/* Tags*/
+hr{
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+
+h1{
+  font-family: 'Do Hyeon', sans-serif;
+}
+h2{
+  color : rgb(12, 65, 140);
+  font-family: 'Do Hyeon', sans-serif;
+}
+h3{
+  color : rgb(22, 91, 188);
+  font-family: 'Do Hyeon', sans-serif;
+}
+strong,
+a,
+p,
+ul {
+    word-spacing: 3px;
+    font-size: 21px;
+    font-family: 'Abel', sans-serif;
+}
+nav {
+    font-size: 0.6em;
+    font-family: 'Do Hyeon', sans-serif;
+}
+/*clases*/
+.abajo {
+    padding-top: 30px; /*Pone las cosas "más abajo", creando un poco de espacio blanco arriba del contenido.*/
+}
+.round-image {
+    border-radius: 50%;      /*Imagen circular al poner el radio al 50% */
+}
+.btn{
+	font-family: 'Abel', sans-serif;
+}
+/* IDs */
+#myBackground{
+  background-color: rgb(255, 255, 255);
+}
+#pageHeader{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
