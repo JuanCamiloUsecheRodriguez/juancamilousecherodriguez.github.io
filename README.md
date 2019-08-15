@@ -2,16 +2,12 @@
 
 ## Objectives and web page link
 
-Hello and welcome to my presentation page. The page was developed as the entry for the Proyect 1 of my web development course. 
-To "run" the page you can use this link to chech it out:
+Hello and welcome to my presentation page. To access the page you can use the following link:
 
 https://juancamilousecherodriguez.github.io/
 
-Just copy it into your browser search tab and hit enter.
-Hope you like it.
-
 ## Technologies used
-For the development of the page, the technologies I used are: HTML, JS, CSS, Bootstrap and Github.
+For the development of the page, the technologies I used were: HTML, JS, CSS, Bootstrap and Github.
 ## Screenshot 
 Here is a screenshot of the page
 
