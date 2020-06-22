@@ -15,19 +15,6 @@ myHeading.innerHTML = 'Welcome to my page, ' + yourName ;
 */
 var myHeading = document.querySelector('.bienvenida');
 
-function setUserName() {
-  var myName = prompt('Why hello, please tell me your name.');
-  localStorage.setItem('name', myName);
-  myHeading.innerHTML = 'Welcome to my presentation page, ' + myName + '😀';
-}
-
-if(!localStorage.getItem('name')) {
-  window.setTimeout(setUserName, 2000);
-} else {
-  var storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Welcome to my presentation page, ' + storedName + '😀';
-}
-
 function mOver(obj) {
   obj.setAttribute ("width","297px");
   obj.setAttribute ("height","297px");
