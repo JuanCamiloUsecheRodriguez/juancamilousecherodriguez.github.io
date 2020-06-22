@@ -19,18 +19,18 @@ function mOver(obj) {
   obj.setAttribute ("width","297px");
   obj.setAttribute ("height","297px");
   obj.setAttribute ("border","5px");
-  myHeading.innerHTML = "Yeah, that is me 😁"
+  myHeading.innerHTML = "Yeah, that is me"
 }
 
 function mOut(obj) {
   obj.setAttribute ("width","288px");
   obj.setAttribute ("height","288px");
   var storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Welcome to my presentation page, ' + storedName + '😀';
+  myHeading.innerHTML = 'Welcome to my presentation page' ;
 }
 /*code for the extra fact*/
 var i = 0;
-var txt = 'I love my web development class. 😏';
+var txt = 'I love my web development class';
 var speed = 50;
 
 function typeWriter() {
