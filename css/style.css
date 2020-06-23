@@ -39,7 +39,7 @@ nav {
 	font-family: 'Abel', sans-serif;
 }
 .myBackground{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255) !important;
 }
 .myBackground2{
   background-color: rgb(52, 58, 64) !important; 
