@@ -38,13 +38,19 @@ nav {
 .btn{
 	font-family: 'Abel', sans-serif;
 }
-/* IDs */
-#myBackground{
-  background-color: rgb(255, 255, 255);
-}
 
 .myBackground2{
   background-color: rgb(52, 58, 64) !important; 
+}
+
+.whiteFont{
+  color : white;
+}
+
+
+/* IDs */
+#myBackground{
+  background-color: rgb(255, 255, 255);
 }
 
 #pageHeader{
