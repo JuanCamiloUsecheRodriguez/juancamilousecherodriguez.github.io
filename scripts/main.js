@@ -16,15 +16,15 @@ myHeading.innerHTML = 'Welcome to my page, ' + yourName ;
 var myHeading = document.querySelector('.bienvenida');
 
 function mOver(obj) {
-  obj.setAttribute ("width","297px");
-  obj.setAttribute ("height","297px");
+  obj.setAttribute ("width","310px");
+  obj.setAttribute ("height","310px");
   obj.setAttribute ("border","5px");
   myHeading.innerHTML = "Yeah, that is me"
 }
 
 function mOut(obj) {
-  obj.setAttribute ("width","288px");
-  obj.setAttribute ("height","288px");
+  obj.setAttribute ("width","300px");
+  obj.setAttribute ("height","300px");
   var storedName = localStorage.getItem('name');
   myHeading.innerHTML = 'Welcome to my presentation page' ;
 }
