@@ -19,7 +19,7 @@ function mOver(obj) {
   obj.setAttribute ("width","310px");
   obj.setAttribute ("height","310px");
   obj.setAttribute ("border","5px");
-  myHeading.innerHTML = "Yeah, that is me"
+  myHeading.innerHTML = "Yeah, that's me!"
 }
 
 function mOut(obj) {
