@@ -19,7 +19,7 @@ function mOver(obj) {
   obj.setAttribute ("width","310px");
   obj.setAttribute ("height","310px");
   obj.setAttribute ("border","5px");
-  myHeading.innerHTML = "Yeah, that's me!"
+  myHeading.innerHTML = "Yeah, that is me!"
 }
 
 function mOut(obj) {
@@ -30,7 +30,7 @@ function mOut(obj) {
 }
 /*code for the extra fact*/
 var i = 0;
-var txt = 'I love my web development class';
+var txt = 'I have a lot of creativity';
 var speed = 50;
 
 function typeWriter() {
