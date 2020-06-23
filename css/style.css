@@ -34,6 +34,8 @@ nav {
 }
 .round-image {
     border-radius: 50%;      /*Imagen circular al poner el radio al 50% */
+    width: 300;
+    height: 300;
 }
 .btn{
 	font-family: 'Abel', sans-serif;
@@ -52,7 +54,7 @@ nav {
 .rcorners1 {
   border-radius: 25px;
   padding: 20px;
-  width: 200px;
+  width: 150px;
   height: 150px;
 }
 
