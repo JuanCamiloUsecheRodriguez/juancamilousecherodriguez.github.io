@@ -9,11 +9,9 @@ h1{
   font-family: 'Notable', sans-serif;
 }
 h2{
-  color : rgb(12, 65, 140);
   font-family: 'Do Hyeon', sans-serif;
 }
 h3{
-  color : rgb(22, 91, 188);
   font-family: 'Do Hyeon', sans-serif;
 }
 strong,
@@ -47,6 +45,10 @@ nav {
 
 .whiteFont{
   color : white;
+}
+
+.blueFont{
+  color : rgb(22, 91, 188);
 }
 
 .rcorners1 {
