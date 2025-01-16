@@ -68,3 +68,49 @@ nav {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
+.round-image {
+  width: 100%; /* Proporcional al contenedor */
+  max-width: 300px; /* Limita el tamaño máximo en pantallas grandes */
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Transición suave */
+}
+
+.round-image:hover {
+  transform: scale(1.2); /* Efecto de aumento en el hover */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .round-image {
+    width: 30%; /* Aumenta el tamaño en pantallas más pequeñas */
+    max-width: 100px; /* Limita el tamaño máximo */
+  }
+}
+
+@media (max-width: 480px) {
+  .round-image {
+    width: 40%; /* Aumenta aún más el tamaño en pantallas muy pequeñas */
+    max-width: 80px; /* Ajusta el tamaño máximo */
+  }
+}
+
+/* Estilo para los contenedores de video */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Esto asegura que los videos mantengan una relación 16:9 */
+  overflow: hidden;
+  background: #000;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
